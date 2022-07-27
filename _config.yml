@@ -1,0 +1,53 @@
+# Remote theme directory
+remote_theme: analytics-link/analytics-link.github.io
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-remote-theme
+
+#-------------------------------
+# General Site Settings
+title: Chris Delgado
+description: "Hi I'm Chris, and I'm a Data Analyst! I am passionate about providing value through analytics, data visualization, and process improvement."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+#-------------------------------
+# About Section
+subtitle: Project <span style="color:#add8e6"> Portfolio </span>
+location: "USA"
+resume_url: /docs/Resume_PDF.pdf
+avatar_image: /img/Headshot.jpg
+
+#------------------------------- 
+# Contact links
+linkedln: "https://www.linkedin.com/in/cdelgado2/" # Add your linkedln handle
+github: "https://github.com/chris-delgado/"  # Add your github handle
+
+paginate: 6
+paginate_path: "/page/:num"
+
+sass:
+  sass_dir: _sass
+  style: compressed # possible values: nested expanded compact compressed
+
+defaults:
+  - scope:
+      type: posts
+    values:
+      layout: post
+      read_time: true
+      share: false
+
+
+#-------------------------------
+# Exclude from processing.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
