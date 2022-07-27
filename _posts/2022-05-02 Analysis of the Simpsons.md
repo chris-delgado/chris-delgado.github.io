@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Analysis of the Simpsons (Seasons 1 - 9)
-image: "/posts/Simpsons.jpg"
+image: "/posts/Simpsons.jpeg"
 tags: [Tableau, Dashboard]
 ---
 
