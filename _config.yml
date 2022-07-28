@@ -25,7 +25,7 @@ avatar_image: /img/ProfilePicture.jpeg
 linkedln: "https://www.linkedin.com/in/cdelgado2/" # Add your linkedln handle
 github: "https://github.com/chris-delgado/"  # Add your github handle
 
-paginate: 1
+paginate: 2
 paginate_path: "/page/:num"
 
 sass:
