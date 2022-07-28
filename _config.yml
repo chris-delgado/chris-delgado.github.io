@@ -9,7 +9,7 @@ plugins:
 #-------------------------------
 # General Site Settings
 title: Chris Delgado
-description: "Hi I'm Chris, and I'm a Data Analyst! I am passionate about providing value through analytics, data visualization, and process improvement."
+description: "Hi I'm Chris, and this is my project portfolio. These are interesting projects I've recently undertaken. Please visit my Github & LinkedIn pages (or download my Resume) by using the links below!"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
