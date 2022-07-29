@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Analysis of the Simpsons (Seasons 1 - 9)
+title: Analysis of The Simpsons (Seasons 1 - 9)
 image: "/posts/Simpsons.jpeg"
 tags: [Tableau, Dashboard, SQL]
 ---
