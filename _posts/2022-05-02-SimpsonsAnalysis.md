@@ -7,4 +7,4 @@ tags: [Tableau, Dashboard, SQL]
 
 ![alt text](/img/posts/Simpsons.jpeg "Simpsons")
 
-View the full project here: https://public.tableau.com/app/profile/chris2514/viz/AnalysisoftheSimpsonsSeasons1-9/Title
+View the full project [here](https://public.tableau.com/app/profile/chris2514/viz/AnalysisoftheSimpsonsSeasons1-9/Title)
