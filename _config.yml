@@ -16,7 +16,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #-------------------------------
 # About Section
 subtitle: Project <span style="color:#f58506"> Portfolio </span>
-location: "USA"
+location: "United States"
 resume_url: /docs/Chris_Delgado_Resume.pdf
 avatar_image: /img/ProfilePicture.jpeg
 
