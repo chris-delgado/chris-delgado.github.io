@@ -1,11 +1,3 @@
-# Remote theme directory
-remote_theme: analytics-link/analytics-link.github.io
-
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-remote-theme
-
 #-------------------------------
 # General Site Settings
 title: Chris Delgado
@@ -25,6 +17,14 @@ avatar_image: /img/ProfilePicture.jpeg
 linkedln: "https://www.linkedin.com/in/cdelgado2/" # Add your linkedln handle
 github: "https://github.com/chris-delgado/"  # Add your github handle
 
+#-------------------------------
+# Build settings
+markdown: kramdown
+permalink: ':title/'
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  
 paginate: 4
 paginate_path: "/page/:num"
 
