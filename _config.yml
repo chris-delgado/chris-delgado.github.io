@@ -8,12 +8,12 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #-------------------------------
 # About Section
 subtitle: <span style="color:#f58506"> Projects </span>
-blog: /books.html
 resume_url: /docs/Chris_Delgado_Resume.pdf
 avatar_image: /img/ProfilePicture.jpeg
 
 #------------------------------- 
 # Contact links
+blog: "https://cdelgado611.wixsite.com/my-site/post/atomic-habits"
 linkedln: "https://www.linkedin.com/in/cdelgado2/" # Add your linkedln handle
 github: "https://github.com/chris-delgado/"  # Add your github handle
 
