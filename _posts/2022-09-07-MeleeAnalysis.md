@@ -1,21 +1,20 @@
 ---
 layout: post
-title: Analysis of Melee Results
+title: Analysis of Super Smash Bros. Melee Results
 image: "/posts/Melee.png"
 tags: [Python]
 ---
 
-# Analysis of Super Smash Bros. Melee Results
-## Background
+# Background
 - During the Summer of 2022, I spent time learning how to play Super Smash Bros. Melee online through Slippi, an online matchmaking platform. 
 - Slippi generates a .slp file for each game played which can be parsed to determine a number of statistics, such as actions performed by characters in-game.
 
 
-## Consolidating Data
+# Consolidating Data
 - Using the Python parser at https://github.com/hohav/py-slippi I created a script [slippi_stats.py](https://github.com/chris-delgado/chris-delgado.github.io/blob/main/python/slippi_stats.py) which takes a directory of .slp files as input and outputs a json file of historical match information in a pandas dataframe (e.g. wins, losses, stages, characters, actions performed, etc.)
 <img width="1209" alt="Screen Shot 2022-09-07 at 2 59 15 PM" src="https://user-images.githubusercontent.com/19756136/188956620-74763c81-6115-4fc4-abdf-60cee1703aab.png">
 
-## Aggregate Statistics
+# Aggregate Statistics
 - This json file can be used as a means of generating insightful statistical analyses of games played
 - An example of this is a heatmap I created [slippi_heatmap.py](https://github.com/chris-delgado/chris-delgado.github.io/blob/main/python/slippi_heatmap.py) of win rates in different character matchups
 <img width="1048" alt="Screen Shot 2022-09-07 at 3 00 33 PM" src="https://user-images.githubusercontent.com/19756136/188956820-6cea9b8e-947e-493c-be59-5e5b00b454ef.png">
@@ -24,8 +23,9 @@ tags: [Python]
 <img width="1170" alt="Screen Shot 2022-09-07 at 3 04 52 PM" src="https://user-images.githubusercontent.com/19756136/188957499-03d0c5e7-27ce-44b2-9c4f-4306c95a990a.png">
 
 - Lastly, a list of the most common opponents I faced (from [slippi_opponents.py](https://github.com/chris-delgado/chris-delgado.github.io/blob/main/python/slippi_opponents.py))
+
 <img width="106" alt="Screen Shot 2022-09-07 at 3 06 49 PM" src="https://user-images.githubusercontent.com/19756136/188957763-74f0a6eb-c238-4fb2-bc93-3dfde0ca8a8f.png">
 
-## Future Considerations
+# Future Considerations
 - There are a number of things you could do with this information, such as charting L-Cancel rate over time or average kill percents
 - Unfortunately, I'm taking a hiatus from this game to focus on more productive activities, so I won't be exploring this further
