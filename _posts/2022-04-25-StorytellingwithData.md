@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Key Takeaways from Storytelling with Data by Cole Nussbaumer Knaflic
-image: "/posts/StorytellingwithData.png"
+image: "/posts/StorytellingwithData.jpeg"
 tags: [Books]
 ---
 
