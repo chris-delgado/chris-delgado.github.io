@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Analysis of Melee Results
-image: "/posts/Melee.jpeg"
+image: "/posts/Melee.png"
 tags: [Python]
 ---
 
