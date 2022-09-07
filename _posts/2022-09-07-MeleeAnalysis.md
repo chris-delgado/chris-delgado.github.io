@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Analysis of Super Smash Bros. Melee Results
-image: "/posts/Melee.png"
+image: "/posts/Melee.jpeg"
 tags: [Python]
 ---
 
