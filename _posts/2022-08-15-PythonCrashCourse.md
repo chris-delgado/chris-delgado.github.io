@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Key Takeaways from Python Crash Course by Eric Matthes
-image: "/posts/PythonCrashCourse.jpg"
+image: "/posts/PythonCrashCourse.png"
 tags: [Python]
 ---
 
