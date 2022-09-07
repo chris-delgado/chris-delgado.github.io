@@ -1,13 +1,13 @@
 #-------------------------------
 # General Site Settings
 title: Chris Delgado
-description: "Hi I'm Chris, and this is my project portfolio. Included below are interesting projects that I've recently undertaken. Please visit my Github & LinkedIn pages (or download my Resume) by using the links below!"
+description: "Hi I'm Chris, and below you will find a collection of books I've read and projects I've worked on. Feel free to visit my Github & LinkedIn pages or download my Resume by using the links below!"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 #-------------------------------
 # About Section
-subtitle: <span style="color:#f58506"> Projects </span>
+subtitle: <span style="color:#f58506"> Books & Projects </span>
 resume_url: /docs/Chris_Delgado_Resume.pdf
 avatar_image: /img/ProfilePicture.jpeg
 
