@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Key Takeaways from The Art of Learning by Josh Waitzkin
-image: "/posts/TheArtofLearning.jpeg"
+image: "/posts/TheArtofLearning.png"
 tags: [Books]
 ---
 
