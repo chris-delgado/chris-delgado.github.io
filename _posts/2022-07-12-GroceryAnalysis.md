@@ -2,7 +2,7 @@
 layout: post
 title: Analysis of Commonly Purchased Groceries
 image: "/posts/Groceries.jpg"
-tags: [Python]
+tags: [Kaggle, Python]
 ---
 
 ![alt text](/img/posts/KaggleViz.png "KaggleViz")
