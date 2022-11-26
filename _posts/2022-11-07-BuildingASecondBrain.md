@@ -7,7 +7,7 @@ tags: [Books, Notetaking]
 # Building a Second Brain - Key Takeaways
 ## Highlights
 1. Organize your notes by actionability using PARA
-2. Distill notes into usable material using Progressive Summarization
+2. Distill notes into usable material using _Progressive Summarization_
 3. Use yesterday's momentum today with the Hemingway Bridge
 
 ## 1. Attention is a Valuable Resource
@@ -84,7 +84,7 @@ tags: [Books, Notetaking]
 
 - The process of distilling notes into usable material
 - Helps you focus on the content and presentation of notes instead of spending too much time labeling, tagging, linking, etc.
-- Tiago's process is Note > Bold > Highlight > Summary (own words)
+- Tiago's process is Note > Bold > _Highlight_ > Summary (own words)
 - My current process for book notes is Highlight passages > Type notes > Create Key Takeaways 
 - For the executive summary of a note, use your own words, define unusual terms, and think about your future self who may not know what you're talking about
 
