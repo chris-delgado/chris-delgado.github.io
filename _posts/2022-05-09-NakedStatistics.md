@@ -2,7 +2,7 @@
 layout: post
 title: Key Takeaways from Naked Statistics by Charles Wheelan
 image: "/posts/NakedStatistics.jpeg"
-tags: [Books]
+tags: [Books, Statistics]
 ---
 
 # Naked Statistics - Key Takeaways
