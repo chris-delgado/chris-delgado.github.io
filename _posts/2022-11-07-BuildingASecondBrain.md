@@ -68,6 +68,8 @@ tags: [Books, Notetaking]
 - One of the biggest temptations when organizing is to get too perfectionistic, treating the process of organizing as an end in itself
 
 ## 8. PARA
+![Pasted image 20221126162614](https://user-images.githubusercontent.com/19756136/204109605-c4309134-134d-404d-9906-a79e945ba49a.png)
+
 - Organizes information based on *how actionable it is*, not *what kind of information it is*
 - Projects: Short-term efforts in your work or life that you're working on now that have a beginning, an end, and a specific, clear outcome
 - Areas: Long-term responsibilities you want to manage over time
