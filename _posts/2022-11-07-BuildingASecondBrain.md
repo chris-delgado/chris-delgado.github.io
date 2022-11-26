@@ -5,13 +5,12 @@ image: "/posts/BuildingASecondBrain.jpeg"
 tags: [Books, Notetaking]
 ---
 # Building a Second Brain - Key Takeaways
-## Executive Summary
+## Highlights
 1. Organize your notes by actionability using PARA
 2. Distill notes into usable material using Progressive Summarization
 3. Use yesterday's momentum today with the Hemingway Bridge
 
 ## 1. Attention is a Valuable Resource
-> [!quote]
 > What information consumes is rather obvious: it consumes the attention of its recipients. Hence a wealth of information creates a poverty of attention...
 > 
 > Herbert Simon
@@ -22,11 +21,11 @@ tags: [Books, Notetaking]
 - This reinforces the idea that external tools can and often do become a natural extension of our own minds
 
 ## 3. Writer's Block Means Lack of Ammo
-> [!quote]
 > It's not that I'm blocked. It's that I don't have enough research to write with power and knowledge about that topic. It always means, not that I can't find the right words, [but rather] that I don't have the ammunition
 > 
 > Sebastian Junger
 > American journalist, author, and filmmaker
+
 - If it feels like the well of inspiration has run dry, then you need a deeper well full of anything that will help argue your perspective or fight for a cause you believe in:
 	- Examples
 	- Illustrations
@@ -47,11 +46,11 @@ tags: [Books, Notetaking]
 - Express: Show your work
 
 ## 5. Knowledge Assets
->[!quote]
 >Crystallizing our thoughts into tangible and digital objects is what allows us to share our thoughts with others... Our ability to crystallize information... gives us access to the practical uses of the knowledge and knowhow residing in the nervous systems of other people
 > 
 > Cesar Hidalgo
 > MIT Economist
+
 - Knowledge capture is about mining the richness of the reading you're *already* doing and the life you're *already* living
 - A knowledge asset is anything that can be used in the future to solve a problem, save time, illuminate a concept, or learn from past experience
 
@@ -74,11 +73,11 @@ tags: [Books, Notetaking]
 - Archives: Inactive items from the other three categories
 
 ## 9. Progressive Summarization
->[!quote]
 >To attain knowledge, add things every day. To attain wisdom, remove things every day.
 >
 >Lao Tzu
 >Ancient Chinese Philosopher
+
 - The process of distilling notes into usable material
 - Helps you focus on the content and presentation of notes instead of spending too much time labeling, tagging, linking, etc.
 - Tiago's process is Note > Bold > Highlight > Summary (own words)
@@ -96,7 +95,6 @@ tags: [Books, Notetaking]
 - This meant that the next time he sat down to work on his story, he knew exactly where to start
 - He built himself a bridge to the next day, using today's energy and momentum to fuel tomorrow's writing
 
->[!example]
 >Reserve the end of your sessions to take note of the following:
 >1. Next steps
 >2. Current status
