@@ -40,6 +40,8 @@ tags: [Books, Notetaking]
 	- Quotes
 
 ## 4. CODE
+![CODE](https://user-images.githubusercontent.com/19756136/204109573-4c54baee-bd76-449f-a733-7b6b173ba720.png)
+
 - Capture: Keep only what resonates
 - Organize: Save for actionability
 - Distill: Find the essence
