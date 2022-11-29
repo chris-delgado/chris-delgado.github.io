@@ -253,3 +253,5 @@ Here's what's happening within FILTER:
 - Good introduction/reference to Power BI and DAX
 - Will need to read a lot of other books/blogs to learn the CALCULATE() function thoroughly
 - Filter propagation and context transition are not an intuitive concepts and need practice to thoroughly assimilate
+- File used for exercises in the book can be found [here](https://github.com/chris-delgado/chris-delgado.github.io/blob/main/pbi/SuperchargePowerBI.pbix)
+- Source data tables are [here](https://github.com/chris-delgado/chris-delgado.github.io/blob/main/pbi/Adventure%20Works%202005.xlsx)
