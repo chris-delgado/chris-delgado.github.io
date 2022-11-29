@@ -40,7 +40,6 @@ From top to bottom: Report, Data, Model
 - The initial filter context is the standard filtering coming from a matrix (or any other visual) **before** any possible modifications are applied from DAX formulas using CALCULATE()
 - The natural filtering that is applied by a visual, which can come from the following areas: Rows, Columns, Slicers, Filters, & any other visual on the canvas
 
->[!warning]
 >Don't confuse the filter context coming from Rows in a matrix with row context.
 
 ## 7. Filter Propagation
@@ -70,7 +69,6 @@ From top to bottom: Report, Data, Model
 - The structure is confusing to an end user building reports on your database design
 - Power BI was built to be very efficient in the way it stores repetitive data in columns, particularly in smaller lookup tables
 
->[!note]
 >Transactional databases and reporting databases are not the same, so don't try to use the table structure from your transactional system in Power BI.
 
 ## 12. Advice on Loading Your Own Data
@@ -91,7 +89,6 @@ From top to bottom: Report, Data, Model
 2. It selects the single value (intersection between the row and column)
 3. Acts on the single value
 
->[!note]
 >Regular measures can't do this; only functions that have row context and calculated columns
 
 ## 14. Avoid Too Many Calculated Columns
@@ -105,7 +102,6 @@ From top to bottom: Report, Data, Model
 - You can bring the data into a table directly from the source data
 - You can create the column during data load by using Power Query
 
->[!warning]
 >You shouldn't write calculated columns unless you have no other option and you know why you need them.
 
 ## 15. The CALCULATE() Function
@@ -144,7 +140,6 @@ Two very important points:
 	- When you do this, the row context that exists in the calculated column is transformed into an equivalent filter context
 - This works anywhere that a row context exists (calculated columns and iterators like FILTER() and SUMX())
 
->[!note]
 >This is the special case where no filters are needed inside CALCULATE() but instead CALCULATE() creates a new filter context from the row context by using context transition
 
 ## 21. The Hidden Implicit CALCULATE()
@@ -158,7 +153,6 @@ Two very important points:
 2. With a row context which is converted into an equivalent filter context through the process of context transition
 3. Equivalent to #2 as the [Total Sales] measure has an implicit CALCULATE()
 
->[!note]
 >*Every measure* has an implicit CALCULATE()
 
 ## 22. ALL()
@@ -216,7 +210,6 @@ Here's what's happening within FILTER:
 - Every date must exist once and only once
 - Only works on a standard calendar (Jan 1 - Dec 31st)
 
->[!note]
 >If you can't meet these rules, you can build your own custom time intelligence functions using FILTER()
 
 ## 27. Turning Off Auto Date/Time
@@ -233,7 +226,6 @@ Here's what's happening within FILTER:
 - Example for financial year ending June 30: Total Sales FYTD = TOTALFYTD([Total Sales], 'Calendar'[Date], "30/6")
 	- Can also use US date format of 6/30
 
->[!note]
 >Calendar is a reserved word in Power BI. You must add single quotes when referencing a 'Calendar' table within your formulas.
 
 ## 30. Writing Your Own Time Intelligence Functions
@@ -246,7 +238,6 @@ Here's what's happening within FILTER:
 - You can also use FIRSTDATE() and LASTDATE() if you prefer
 - Whenever you use an aggregation function around a column in a DAX formula, it will *always* respect the initial filter context coming from the visual
 
->[!note]
 >Custom time intelligence always uses some form of ALL('Calendar') to remove initial filter context. The FILTER() function therefore iterates through an unfiltered copy of the Calendar table. MIN() and MAX() operate in the initial filter context BEFORE the ALL() function removes it.
 
 ## Final Thoughts
