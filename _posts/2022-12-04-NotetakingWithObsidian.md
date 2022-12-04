@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Notetaking With Obsidian
-image: "/posts/obsidian.jpeg"
+image: "/posts/obsidian.png"
 tags: [JavaScript, Notetaking, Obsidian]
 ---
 # Notetaking With Obsidian
