@@ -1,0 +1,3 @@
+[[Resources]]
+
+# Daily Note
