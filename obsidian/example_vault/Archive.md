@@ -1,4 +1,0 @@
-[[Index]]
-
-# Archive
-[[Chess Tactics]]
