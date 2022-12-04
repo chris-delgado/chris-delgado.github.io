@@ -32,7 +32,9 @@ Some useful principles to keep in mind when making notes:
 5. Don't worry about organizational structure (take a bottom-up approach instead)
 
 ## Obsidian
+
 <img width="163" alt="Screenshot 2022-12-01 at 5 35 44 PM" src="https://user-images.githubusercontent.com/19756136/205523275-f69f7ffe-b649-4807-bc07-80f6dadaa1aa.png">
+
 Obsidian is an extensible knowledge base that works on top of your local folder of plain text files. It can be downloaded [here](https://obsidian.md).
 
 Its main features are:
@@ -135,10 +137,12 @@ for (let group of dv.pages("#book").where(p => p["time-read"].year == 2021).grou
 
 #### Obsidian Charts
 Obsidian Charts let's you create interactive Charts inside Obsidian.
+
 <img width="417" alt="Screenshot 2022-12-03 at 2 44 24 PM" src="https://user-images.githubusercontent.com/19756136/205523297-c810c435-3c8f-46b9-9c18-b2037ca52755.png">
 
 #### Tracker
 Helps you collect data from notes and represent it visually.
+
 ![Pasted image 20221203144546](https://user-images.githubusercontent.com/19756136/205523307-a2d8b5c6-ab48-4129-a4e9-e6ffa14af032.png)
 
 #### Templater
