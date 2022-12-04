@@ -32,7 +32,7 @@ Some useful principles to keep in mind when making notes:
 5. Don't worry about organizational structure (take a bottom-up approach instead)
 
 ## Obsidian
-![[Screenshot 2022-12-01 at 5.35.44 PM.png]]
+<img width="163" alt="Screenshot 2022-12-01 at 5 35 44 PM" src="https://user-images.githubusercontent.com/19756136/205523275-f69f7ffe-b649-4807-bc07-80f6dadaa1aa.png">
 Obsidian is an extensible knowledge base that works on top of your local folder of plain text files. It can be downloaded [here](https://obsidian.md).
 
 Its main features are:
@@ -135,11 +135,11 @@ for (let group of dv.pages("#book").where(p => p["time-read"].year == 2021).grou
 
 #### Obsidian Charts
 Obsidian Charts let's you create interactive Charts inside Obsidian.
-![[Screenshot 2022-12-03 at 2.44.24 PM.png]]
+<img width="417" alt="Screenshot 2022-12-03 at 2 44 24 PM" src="https://user-images.githubusercontent.com/19756136/205523297-c810c435-3c8f-46b9-9c18-b2037ca52755.png">
 
 #### Tracker
 Helps you collect data from notes and represent it visually.
-![[Pasted image 20221203144546.png]]
+![Pasted image 20221203144546](https://user-images.githubusercontent.com/19756136/205523307-a2d8b5c6-ab48-4129-a4e9-e6ffa14af032.png)
 
 #### Templater
 Templater is a template language that lets you insert **variables** and **functions** results into your notes. It will also let you execute JavaScript code manipulating those variables and functions.
@@ -176,11 +176,11 @@ modification date: Thursday 7th January 2021 17:20:43
 ```
 
 ## Example Vault
-I have an example Obsidian vault on GitHub [here](github.com) with some of the notes I've created that leverage YAML and the above plugins. The table below describes key notes in that vault. You will need to install and enable the community plugins I listed above for some of these notes to render and function correctly. Not all of the links from my personal vault were transferred to the example vault, so there will be many that will be grayed out.
+I've uploaded an example Obsidian vault on GitHub [here](https://github.com/chris-delgado/chris-delgado.github.io/blob/main/obsidian/Example_Vault.zip) with some of the notes I've created that leverage YAML and the above plugins. The table below describes key notes in that vault. You will need to install and enable the community plugins I listed above for some of these notes to render and function correctly. Not all of the links from my personal vault were transferred to the example vault, so there will be many that will be grayed out.
 
 | Note                               | Description                                                                           |
 | ---------------------------------- | ------------------------------------------------------------------------------------- |
-| [[2022 New Orleans]]               | Index note for planning a trip to New Orleans                                         |
+| [[2022 New Orleans]]               | Index note for planning a trip to New Orleans (images have been removed)              |
 | [[Book Note Template]]             | Template note for the books I read                                                    |
 | [[Books]]                          | Index note for books I've read/am reading                                             |
 | [[Daily Note Template]]            | My current daily note template                                                        |
@@ -192,7 +192,7 @@ I have an example Obsidian vault on GitHub [here](github.com) with some of the n
 | [[Projects]]                       | Index note for all my projects                                                        |
 | [[Templates]]                      | Index note for templates I've created                                                 |
 
-## Resources
-[[20221107 Building a Second Brain]]
-[Zettelkasten — How One German Scholar Was So Freakishly Productive](https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125)
+## Further Reading
+[Building a Second Brain: An Overview](https://fortelabs.com/blog/basboverview/)
 [What is YAML?](https://www.redhat.com/en/topics/automation/what-is-yaml)
+[Zettelkasten — How One German Scholar Was So Freakishly Productive](https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125)
