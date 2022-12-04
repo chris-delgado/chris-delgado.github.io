@@ -198,5 +198,7 @@ I've uploaded an example Obsidian vault on GitHub [here](https://github.com/chri
 
 ## Further Reading
 [Building a Second Brain: An Overview](https://fortelabs.com/blog/basboverview/)
+
 [What is YAML?](https://www.redhat.com/en/topics/automation/what-is-yaml)
+
 [Zettelkasten — How One German Scholar Was So Freakishly Productive](https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125)
