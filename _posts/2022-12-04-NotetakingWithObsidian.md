@@ -50,36 +50,7 @@ In the context of Obsidian note-taking, YAML frontmatter is an optional section 
 
 Here's an example of YAML I have at the top of one of my daily notes:
 
-```YAML Example
----
-Highlight: "Having chicken and waffles at the diner with Amy."
-Reflections:
-- {Number: 1, Subject: Health, Note: "Shoulder is killing me this morning."}
-- {Number: 2, Subject: Health, Note: "Four supraspinatus exercises seemed OK."}
-- {Number: 3, Subject: Music, Note: "Finished Regrets. It should be published on the 6th."}
-- {Number: 4, Subject: Misc, Note: "I should have a daily highlight to capture in my notes."}
-- {Number: 5, Subject: Health, Note: "Terrible allergies today."}
-
-Exercise:
-- {Name: 90/90 External Rotation, Weight: 2.5, Unit: lb, Sets: 2, Reps: 20}
-- {Name: Full Can, Weight: 2.5, Unit: lb, Sets: 2, Reps: 20}
-- {Name: Prone Y, Weight: 2.5, Unit: lb, Sets: 2, Reps: 20}
-- {Name: Side Lying External Rotation, Weight: 2.5, Unit: lb, Sets: 2, Reps: 20}
-- {Name: Stationary Bike, Resistance: 12, Unit: level, Duration: 1h 10m, Avg_HR: 128}
-
-Calories: 3040
-Protein: 177
-Saturated_Fat: 30
-SleepStart: 2022-11-14T21:30
-SleepEnd: 2022-11-15T06:30
-Weight: 145.2
-BookTime: 49m
-ExerciseTime: 100m
-PianoTime: 76m
-ProjectTime: 362m
-TaskTime: 67m
----
-```
+<img width="801" alt="Screenshot 2022-12-04 at 7 02 42 PM" src="https://user-images.githubusercontent.com/19756136/205523991-6a1a41f3-0684-46c0-9744-071e3a775ddc.png">
 
 ## Obsidian Community Plugins
 Below are five of the Obsidian community plugins that I've found the most helpful and interesting.
