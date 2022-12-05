@@ -54,8 +54,8 @@ Here's an example of YAML I have at the top of one of my daily notes:
 ---
 Highlight: "Having chicken and waffles at the diner with Amy."
 Reflections:
-- {Number: 1, Subject: Health, Note: "Shoulder is killing me this morning. Arm circles from yesterday were a bad idea maybe? Although the pants pulls were also surprisingly tough. Less weight today."}
-- {Number: 2, Subject: Health, Note: "Four supraspinatus exercises seemed OK. Thinking I'll alternate between these and three infraspinatus exercises. Definitely no arm circles lol."}
+- {Number: 1, Subject: Health, Note: "Shoulder is killing me this morning."}
+- {Number: 2, Subject: Health, Note: "Four supraspinatus exercises seemed OK."}
 - {Number: 3, Subject: Music, Note: "Finished Regrets. It should be published on the 6th."}
 - {Number: 4, Subject: Misc, Note: "I should have a daily highlight to capture in my notes."}
 - {Number: 5, Subject: Health, Note: "Terrible allergies today."}
