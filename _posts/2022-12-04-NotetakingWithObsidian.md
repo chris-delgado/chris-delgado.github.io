@@ -48,7 +48,7 @@ Depending on whom you ask, YAML stands for yet another markup language or YAML a
 
 In the context of Obsidian note-taking, YAML frontmatter is an optional section of valid YAML that is placed at the top of a page and is used for maintaining metadata for the page and its contents. You can then query this metadata using community plugins like Dataview and Obsidian Charts.
 
-Here's an example of YAML I have at the top of my 2022-11-15 daily note:
+Here's an example of YAML I have at the top of one of my daily notes:
 
 ```YAML Example
 ---
@@ -66,34 +66,6 @@ Exercise:
 - {Name: Prone Y, Weight: 2.5, Unit: lb, Sets: 2, Reps: 20}
 - {Name: Side Lying External Rotation, Weight: 2.5, Unit: lb, Sets: 2, Reps: 20}
 - {Name: Stationary Bike, Resistance: 12, Unit: level, Duration: 1h 10m, Avg_HR: 128}
-
-Food:
-- {Name: Ahi Tuna, Amount: 106, Unit: g}
-- {Name: Almond Butter, Amount: 16, Unit: g}
-- {Name: Almond Milk, Amount: 100, Unit: mL}
-- {Name: Balsamic Vinegar, Amount: 0.5, Unit: tbsp}
-- {Name: Banana, Amount: 1, Unit: whole}
-- {Name: Black Beans, Amount: 100, Unit: g}
-- {Name: Black Coffee, Amount: 2, Unit: cup}
-- {Name: Blueberries, Amount: 80, Unit: g}
-- {Name: Broccoli, Amount: 100, Unit: g}
-- {Name: Bulgur, Amount: 200, Unit: g}
-- {Name: Carrots, Amount: 100, Unit: g}
-- {Name: Chia Seeds, Amount: 20, Unit: g}
-- {Name: Chicken and Waffles, Amount: 1, Unit: whole}
-- {Name: Chicken Breast, Amount: 132, Unit: g}
-- {Name: Craisins, Amount: 10, Unit: g}
-- {Name: Cucumber, Amount: 100, Unit: g}
-- {Name: Honeycrisp Apple, Amount: 1, Unit: whole}
-- {Name: Olive Oil, Amount: 0.5, Unit: tbsp}
-- {Name: Peanuts, Amount: 28, Unit: g}
-- {Name: Pepitas, Amount: 14, Unit: g}
-- {Name: Russet Potato, Amount: 159, Unit: g}
-- {Name: Spinach, Amount: 65, Unit: g}
-- {Name: Steel Cut Oats, Amount: 200, Unit: g}
-- {Name: Tomato, Amount: 1, Unit: whole}
-- {Name: Walnuts, Amount: 14, Unit: g}
-- {Name: Whey Protein, Amount: 15, Unit: g}
 
 Calories: 3040
 Protein: 177
@@ -121,17 +93,7 @@ Lets you use Obsidian as a database from which you can query. Queries are simila
 
 **Example**: Show all files in the `books` folder that you read in 2021, grouped by genre and sorted by rating:
 
-````markdown
-```dataviewjs
-for (let group of dv.pages("#book").where(p => p["time-read"].year == 2021).groupBy(p => p.genre)) {
-	dv.header(3, group.key);
-	dv.table(["Name", "Time Read", "Rating"],
-		group.rows
-			.sort(k => k.rating, 'desc')
-			.map(k => [k.file.link, k["time-read"], k.rating]))
-}
-```
-````
+<img width="857" alt="Screenshot 2022-12-04 at 7 00 20 PM" src="https://user-images.githubusercontent.com/19756136/205523871-8aa68f4c-e654-4dea-bf3d-89a0ea9ffe08.png">
 
 ![Books By Genre](https://raw.githubusercontent.com/blacksmithgu/obsidian-dataview/HEAD/docs/docs/assets/books-by-genre.png)
 
@@ -150,34 +112,12 @@ Templater is a template language that lets you insert **variables** and **fu
 
 The following template file uses Templater syntax:
 
-```
----
-creation date: <% tp.file.creation_date() %>
-modification date: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
----
-
-<< [[<% tp.date.now("YYYY-MM-DD", -1) %>]] | [[<% tp.date.now("YYYY-MM-DD", 1) %>]] >>
-
-# <% tp.file.title %>
-
-<% tp.web.daily_quote() %>
-```
+<img width="745" alt="Screenshot 2022-12-04 at 6 59 05 PM" src="https://user-images.githubusercontent.com/19756136/205523792-c48c2005-4fc4-498f-83e6-de6b91653d2a.png">
 
 The above file will produce the following result when inserted:
 
-```
----
-creation date: 2021-01-07 17:20
-modification date: Thursday 7th January 2021 17:20:43
----
+<img width="704" alt="Screenshot 2022-12-04 at 6 59 45 PM" src="https://user-images.githubusercontent.com/19756136/205523828-f8cf21c4-665f-4d1b-90ef-9eb6d6ced542.png">
 
-<< [[2021-04-08]] | [[2021-04-10]] >>
-
-# Test Test
-
-> Do the best you can until you know better. Then when you know better, do better.
-> &mdash; <cite>Maya Angelou</cite>
-```
 
 ## Example Vault
 I've uploaded an example Obsidian vault on GitHub [here](https://github.com/chris-delgado/chris-delgado.github.io/blob/main/obsidian/Example_Vault.zip) with some of the notes I've created that leverage YAML and the above plugins. The table below describes key notes in that vault. You will need to install and enable the community plugins I listed above for some of these notes to render and function correctly. Not all of the links from my personal vault were transferred to the example vault, so there will be many that will be grayed out.
