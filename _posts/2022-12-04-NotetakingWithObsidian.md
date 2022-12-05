@@ -57,6 +57,7 @@ Below are five of the Obsidian community plugins that I've found the most helpfu
 
 #### Advanced Tables
 ![basic functionality](https://raw.githubusercontent.com/tgrosinger/advanced-tables-obsidian/main/resources/screenshots/basic-functionality.gif)
+
 Tables in markdown are a pain, but this plugin mitigates some of that by adding improved navigation, formatting, and manipulation in Obsidian. Auto formatting is the feature I like the most about it.
 
 #### Dataview
