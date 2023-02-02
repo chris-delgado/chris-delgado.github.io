@@ -19,6 +19,9 @@ github: "https://github.com/chris-delgado/"  # Add your github handle
 #-------------------------------
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 permalink: ':title/'
 plugins:
   - jekyll-paginate
