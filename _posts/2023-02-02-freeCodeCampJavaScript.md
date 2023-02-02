@@ -31,7 +31,7 @@ function palindrome(string) {
 
 ## Roman Numeral Converter
 Converts the given number into a roman numeral.
-```JavaScript
+```javascript
 function romanHelper(quo, base) {
   let ans = '';
   let romanNum = '';
@@ -109,7 +109,7 @@ One of the simplest and most widely known ciphers is a Caesar cipher, also known
 A common modern use is the ROT13 cipher, where the values of the letters are shifted by 13 places. Thus A ↔ N, B ↔ O and so on.
 
 This function takes a ROT13 encoded string as input and returns a decoded string.
-```JavaScript
+```javascript
 function rot13(str) {
   // Capital letters are ASCII codes 65 - 90
   let charCode;
@@ -131,7 +131,7 @@ function rot13(str) {
 
 ## Telephone Number Validator
 Returns true if the passed string looks like a valid US phone number.
-```JavaScript
+```javascript
 function telephoneCheck(str) {
   // uses a non-capturing group (?: ... ) to group the alternative patterns: either 3 digits inside parentheses, or just 3 digits.
   let regexPattern = /^1?\s?(?:\(\d{3}\)|\d{3})\s?-?\d{3}\s?-?\d{4}$/;
@@ -148,7 +148,7 @@ Returns {status: "CLOSED", change: [...]} with cash-in-drawer as the value for t
 
 Otherwise, returns {status: "OPEN", change: [...]}, with the change due in coins and bills, sorted in highest to lowest order, as the value of the change key.
 
-```JavaScript
+```javascript
 function checkCashRegister(price, cash, cid) {
   let diff = cash - price;
   let values = [.01, .05, .1, .25, 1, 5, 10, 20, 100]
