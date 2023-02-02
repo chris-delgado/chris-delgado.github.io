@@ -17,7 +17,6 @@ This functions returns true if the given string is a palindrome. Otherwise, it r
 function palindrome(string) {
   let regexPattern = /[^A-Za-z0-9]/g;
   let str = string.replace(regexPattern, "").toLowerCase();
-  console.log(str);
   for (let i = 0; i < str.length/2; i++) {
     if (str[i] === str[str.length-(i+1)]) {
       continue;
