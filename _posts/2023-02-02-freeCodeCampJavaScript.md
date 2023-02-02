@@ -13,7 +13,7 @@ The course provides hands-on experience through coding challenges and projects, 
 A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.
 
 This functions returns true if the given string is a palindrome. Otherwise, it returns false.
-```JavaScript
+```javascript
 function palindrome(string) {
   let regexPattern = /[^A-Za-z0-9]/g;
   let str = string.replace(regexPattern, "").toLowerCase();
