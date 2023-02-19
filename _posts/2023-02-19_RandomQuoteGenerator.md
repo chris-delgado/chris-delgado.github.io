@@ -6,20 +6,24 @@ tags: [CSS, JavaScript, React, freeCodeCamp]
 ---
 # Building a Random Quote Generator
 <img width="478" alt="Screenshot 2023-02-19 at 3 25 12 PM" src="https://user-images.githubusercontent.com/19756136/219973377-f8559ed8-8221-400a-8b05-eb7795897b1a.png">
+
 This is one of the freeCodeCamp Front End Development Libraries projects intended to introduce students to frontend frameworks and libraries. 
 
 In this project I used React and a little bit of Bootstrap for button styling. See the completed project [here](https://codepen.io/chris-delgado/pen/rNZOwVZ).
 
 ## What is React?
 ![react](https://user-images.githubusercontent.com/19756136/219974049-8ef66f06-72e9-456a-84a5-fd446cfb560c.jpeg)
+
 React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces. It has a component-based architecture, which means that developers can break down an application into small, reusable components that can be easily composed and reused across the application. This makes it easier to manage complex user interfaces and create reusable code, leading to faster development and easier maintenance.
 
 ## What is Bootstrap?
 ![bootstrap](https://user-images.githubusercontent.com/19756136/219974054-a20e2417-6185-4352-b17c-643d41dbcba6.png)
+
 Bootstrap is a free, open-source front-end framework for developing responsive and mobile-first web applications. Bootstrap provides a set of pre-built HTML, CSS, and JavaScript components, including typography, forms, buttons, navigation, and other interface elements. These components are designed to be flexible and easy to use, allowing developers to quickly create professional-looking web pages.
 
 ## What is CodePen?
 ![codepen](https://user-images.githubusercontent.com/19756136/219974056-4eb9f8b3-d111-4ed3-8350-74f3c5fa2bf7.png)
+
 CodePen is an online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets. It functions as an online code editor and open-source learning environment, where developers can create code snippets, called "pens," and test them.
 
 ## Source Code
