@@ -7,7 +7,7 @@ tags: [CSS, JavaScript, React, freeCodeCamp]
 # Building a Random Quote Generator
 <img width="478" alt="Screenshot 2023-02-19 at 3 25 12 PM" src="https://user-images.githubusercontent.com/19756136/219973377-f8559ed8-8221-400a-8b05-eb7795897b1a.png">
 
-This is one of the freeCodeCamp Front End Development Libraries projects intended to introduce students to frontend frameworks and libraries. 
+This is one of the freeCodeCamp Front End Development Libraries projects intended to introduce students to frontend frameworks and libraries. The full list of user stories can be found [here](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-random-quote-machine).
 
 In this project I used React and a little bit of Bootstrap for button styling. See the completed project [here](https://codepen.io/chris-delgado/pen/rNZOwVZ).
 
