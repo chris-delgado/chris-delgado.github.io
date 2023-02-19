@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Building a Random Quote Generator with React
+title: Building a Random Quote Generator
 image: "/posts/React.png"
 tags: [CSS, JavaScript, React, freeCodeCamp]
 ---
