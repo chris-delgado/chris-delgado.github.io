@@ -11,15 +11,15 @@ This is one of the freeCodeCamp Front End Development Libraries projects intende
 In this project I used React and a little bit of Bootstrap for button styling. See the completed project [here](https://codepen.io/chris-delgado/pen/rNZOwVZ).
 
 ## What is React?
-https://ms314006.github.io/static/b7a8f321b0bbc07ca9b9d22a7a505ed5/97b31/React.jpg![image](https://user-images.githubusercontent.com/19756136/219973786-db914bf3-1e2d-4763-b710-9747d61a33b6.png)
+![react](https://user-images.githubusercontent.com/19756136/219974049-8ef66f06-72e9-456a-84a5-fd446cfb560c.jpeg)
 React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces. It has a component-based architecture, which means that developers can break down an application into small, reusable components that can be easily composed and reused across the application. This makes it easier to manage complex user interfaces and create reusable code, leading to faster development and easier maintenance.
 
 ## What is Bootstrap?
-https://chriskirby.net/content/images/2023/01/bootstrap-logo-vector.png![image](https://user-images.githubusercontent.com/19756136/219973833-3f9c0f83-79a1-4d69-a60f-c895c0cf163d.png)
+![bootstrap](https://user-images.githubusercontent.com/19756136/219974054-a20e2417-6185-4352-b17c-643d41dbcba6.png)
 Bootstrap is a free, open-source front-end framework for developing responsive and mobile-first web applications. Bootstrap provides a set of pre-built HTML, CSS, and JavaScript components, including typography, forms, buttons, navigation, and other interface elements. These components are designed to be flexible and easy to use, allowing developers to quickly create professional-looking web pages.
 
 ## What is CodePen?
-https://spiralking.com/wp-content/uploads/2019/04/code4.png![image](https://user-images.githubusercontent.com/19756136/219973889-ed933298-ede9-480a-8d9c-8be357b9e1f7.png)
+![codepen](https://user-images.githubusercontent.com/19756136/219974056-4eb9f8b3-d111-4ed3-8350-74f3c5fa2bf7.png)
 CodePen is an online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets. It functions as an online code editor and open-source learning environment, where developers can create code snippets, called "pens," and test them.
 
 ## Source Code
