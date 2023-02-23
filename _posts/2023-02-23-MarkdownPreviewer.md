@@ -14,12 +14,10 @@ See the completed project at Codepen [here](https://codepen.io/chris-delgado/pen
 ## Helpful Tutorials
 These two videos were very helpful in getting different perspectives on completing the project.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CJt7uZD_iK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-[Florin Pop](https://www.youtube.com/watch?v=CJt7uZD_iK0)
+[![Florin Pop's Markdown Previewer Tutorial](https://img.youtube.com/vi/CJt7uZD_iK0/0.jpg)](https://www.youtube.com/watch?v=CJt7uZD_iK0)
 
 
-[Landon Schlangen](https://www.youtube.com/watch?v=dW0vY5vvU1U)
+[![Landon Schlangen Markdown Previewer Tutorial](https://img.youtube.com/vi/dW0vY5vvU1U/0.jpg)](https://www.youtube.com/watch?v=dW0vY5vvU1U)
 
 ## Source Code
 Below is the HTML, CSS, and JavaScript used to build the markdown previewer. Bootstrap stylesheets were added in the Codepen CSS settings; React, React-DOM and React-Markdown were added in the Codepen JavaScript settings.
