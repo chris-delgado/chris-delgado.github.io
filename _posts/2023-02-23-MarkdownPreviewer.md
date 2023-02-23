@@ -14,9 +14,11 @@ See the completed project at Codepen [here](https://codepen.io/chris-delgado/pen
 ## Helpful Tutorials
 These two videos were very helpful in getting different perspectives on completing the project.
 
+#### Florin Pop
 [![Florin Pop's Markdown Previewer Tutorial](https://img.youtube.com/vi/CJt7uZD_iK0/0.jpg)](https://www.youtube.com/watch?v=CJt7uZD_iK0)
 
 
+#### Landon Schlangen
 [![Landon Schlangen Markdown Previewer Tutorial](https://img.youtube.com/vi/dW0vY5vvU1U/0.jpg)](https://www.youtube.com/watch?v=dW0vY5vvU1U)
 
 ## Source Code
