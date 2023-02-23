@@ -4,6 +4,7 @@ title: Building a Markdown Previewer
 image: "/posts/MarkdownPreviewer.png"
 tags: [JavaScript, React, freeCodeCamp]
 ---
+
 # Building a Markdown Previewer
 <img width="515" alt="Screenshot 2023-02-23 at 5 43 12 PM" src="https://user-images.githubusercontent.com/19756136/221047438-7bcbde98-bbc5-4c78-b419-5b00d357b200.png">
 
