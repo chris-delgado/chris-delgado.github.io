@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Arkham Horror Chaos Bag Simulator
-image: "/posts/ArkhamHorror.png"
+image: "/posts/ArkhamHorror.jpeg"
 tags: [JavaScript, CSS, HTML]
 ---
 
