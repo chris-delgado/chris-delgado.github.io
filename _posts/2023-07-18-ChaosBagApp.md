@@ -4,6 +4,8 @@ title: Arkham Horror Chaos Bag Simulator
 image: "/posts/ArkhamHorror.jpeg"
 tags: [JavaScript, CSS, HTML]
 ---
+Link to the app: https://chris-delgado.github.io/chaosbag/
+
 # Background
 A key component of the game mechanics in Arkham Horror: The Card Game is the Chaos Bag. It represents the ever-shifting forces of fate, randomness, and the unknown that the investigators must contend with during their encounters. The Chaos Bag is a collection of tokens that are specific to each scenario and difficulty level. The tokens are marked with different symbols and modifiers that represent positive or negative outcomes for the players.
 
