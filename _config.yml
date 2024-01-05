@@ -1,7 +1,7 @@
 #-------------------------------
 # General Site Settings
 title: Chris Delgado
-description: "Hi I'm Chris, and below you will find a collection of projects I've worked on and books I've read. Feel free to visit my Github and LinkedIn pages or download my Resume by using the links below!"
+description: "Hi I'm Chris, and below you will find a collection of projects I've worked on. Feel free to visit my Github and LinkedIn pages or download my Resume by using the links below!"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
