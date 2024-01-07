@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CS 6750 Spotify Redesign
+title: Spotify Redesign
 image: "/posts/Spotify.png"
 tags: [Human-Computer Interaction]
 ---
