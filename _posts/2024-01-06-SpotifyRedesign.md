@@ -4,7 +4,6 @@ title: CS 6750 Spotify Redesign
 image: "/posts/Spotify.png"
 tags: [Human-Computer Interaction]
 ---
-# Background
 I took the CS6750 Human-Computer Interaction graduate course at Georgia Tech during the Fall 2023 semester. The course delves into the fundamentals of the relationship between humans and computers and explores methodologies used in creating and assessing user-centered systems. Throughout the semester, we worked on completing a pass through of the design life cycle detailed in the course to redesign how an existing interface addressed a specific task. My chosen interface was the Your Library screen on Spotify's mobile app and the task was searching for music outside of one's library while in this screen. The following is a quick recap of my project that goes through a summary of each of the four design life cycle phases: Needfinding, Design Alternatives, Prototyping, and Evaluation.
 
 # Needfinding
