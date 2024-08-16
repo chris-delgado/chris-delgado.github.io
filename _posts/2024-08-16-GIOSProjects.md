@@ -160,16 +160,6 @@ In this part of the project, we built a rudimentary distributed file system (DFS
 - Asynchronous file comparisons to determine whether a fetch or store needed to occur used CRC checksums instead of modified time.
 - I maintained a mapping of file names and client IDs holding write locks on those files. This made it fairly simple to manage write locks. However, storing locks in-memory like this could potentially have scalability issues if there are a very large number of files or concurrent clients.
 
-# Advice for Others
-To get a head start on the class, you want to focus on making sure you do well on Project 1 because that sets the pace for the course. For the midterm and final, what worked for me was drilling the in-lecture quizzes, sample midterm/final, and review questions they give you. I did this by making Anki cards for each question (or sub-question since the review questions are often like 5 questions in one) and reviewing the cards daily as I made them. Anki's spaced repetition algorithm made sure I'm not inefficient with the time I spend by showing me cards I know well less frequently than ones I struggle with.
-
-I highly recommend getting your hands on the review questions for the midterm and final way before they actually give them to you because they will help you laser-in your focus on what's important in the lectures. Here's a link of a previous student's notes that the TAs shared with the rest of the class which I found immensely helpful (especially for the final since I started studying for it as soon as the midterm was done).
-
-If you want a practical head start in GIOS:
-1. Warm ups: Do the C warm up exercises that the TAs provide at the start of the semester 
-2. Understand [this](https://beej.us/guide/bgnet0/html/split/introducing-the-sockets-api.html#introducing-the-sockets-api) page from Beej's Network Concepts Guide: (this is separate from Beej's Guide to Network Programming, which is what is ultimately referred to for part 1)
-3. Understand the "Using Condition Variables" example in [this](https://hpc-tutorials.llnl.gov/posix/) POSIX threads programming tutorial 
-
 # Final Thoughts
 I don't have a computer science background. My undergrad years ago was in Electrical Engineering and my work has been primarily IT support. I found the projects very interesting/rewarding/fun. They were difficult and I needed to spend at least a couple of hours each day for a few weeks to get them working in Gradescope. Reminded me of how long it takes me to learn the patterns of some bosses in Soulsborne games.
 
