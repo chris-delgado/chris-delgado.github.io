@@ -17,7 +17,7 @@ I'll do a quick summary of each project along with "eureka moments" and design d
 ### Warm-Up
 The warm-up phase involved familiarizing oneself with socket programming concepts through practical exercises and resources such as [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/html/split-wide/index.html).
 
-**Eureka Moments**:
+**Eureka Moments**
 - Going through the C Warmup Exercise posted in Piazza was a good segue into doing the project proper.
 - Reading Chapter 3 [Introducing The Sockets API](https://beej.us/guide/bgnet0/html/split/introducing-the-sockets-api.html#introducing-the-sockets-api) in Beej's Guide to Network Concepts really cleared up the concepts for me.
 - Tracking sent bytes and comparing it to file length in a while loop to know when a full file has been transferred.
@@ -27,7 +27,7 @@ The warm-up phase involved familiarizing oneself with socket programming concept
 
 Part 1 focused on implementing the Getfile protocol, covering the client and server components. For this part, a lot of time was spent getting more to up to speed with C programming fundamentals (thank you [Beej's Guide to C Programming](https://beej.us/guide/bgc/html/split-wide/)), most of which I mention in the eureka moments below.
 
-**Eureka Moments**: 
+**Eureka Moments**
 - Understanding that a .o file is an intermediate binary that represents complied code before the final linking stage.
 - Understanding that a header guard is a preprocessor directive in C that prevents a header file from being included more than once in the same compilation unit.
 - Understanding that a callback function is a function that is passed as an argument to another function and are implemented in C using function pointers.
@@ -37,7 +37,7 @@ Part 1 focused on implementing the Getfile protocol, covering the client and ser
 - Setting a timeout for the client socket with the `timeval` struct and `setsockopt`
 - Using `snprintf` to populate the request buffer
 
-**Design Decisions & Tradeoffs**:
+**Design Decisions & Tradeoffs**
 - I dynamically allocated memory for hostname, path string, and some buffers using malloc to handle different lengths.
 - I used a fixed buffer size (BUFSIZE) to simplify memory management at the cost of optimizing memory usage.
 - I set an arbitrary timeout value of 5 seconds on the client to determine how long to keep the socket available.
@@ -49,7 +49,7 @@ Part 1 focused on implementing the Getfile protocol, covering the client and ser
 
 In Part 2, we used a boss-worker pattern to parallelize multiple file requests between the client and server. This pattern involves a boss thread dividing work into smaller tasks and distributing these tasks to a number of worker threads, in this case via a queue.
 
-**Eureka Moments**:
+**Eureka Moments**
 - Realizing that the main thread only enqueues tasks and the workers pop them.
 - Understanding condition variables after going through the POSIX threads programming tutorial at https://hpc-tutorials.llnl.gov/posix/
 - Using print statements to see exactly when mutexes were being acquired/released and when threads were waiting/being signaled.
@@ -57,7 +57,7 @@ In Part 2, we used a boss-worker pattern to parallelize multiple file requests b
 - Getting a file length with `fstat`.
 - Using `pread` to read from a file descriptor at a given offset.
 
-**Design Decisions & Tradeoffs** :
+**Design Decisions & Tradeoffs**
 - I used a global variable count of actioned requests to determine when workers should break from the work loop (this prevented workers from doing work when there was none to do).
 - I made sure to call `pthread_cond_signal` before `pthread_mutex_unlock` as failing to unlock the mutex after calling `pthread_cond_signal()` may not allow a matching `pthread_cond_wait()` routine to complete (the tradeoff here is that spurious wake ups could potentially occur, hurting performance).
 
