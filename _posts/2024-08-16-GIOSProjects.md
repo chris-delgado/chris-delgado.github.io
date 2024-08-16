@@ -162,5 +162,3 @@ In this part of the project, we built a rudimentary distributed file system (DFS
 
 # Final Thoughts
 I don't have a computer science background. My undergrad years ago was in Electrical Engineering and my work has been primarily IT support. I found the projects very interesting/rewarding/fun. They were difficult and I needed to spend at least a couple of hours each day for a few weeks to get them working in Gradescope. Reminded me of how long it takes me to learn the patterns of some bosses in Soulsborne games.
-
-I learned a lot from the projects, but the lectures and papers were a different beast. I didn't really have much previous knowledge to anchor to, so most topics were brand new information to me. It was a constant deluge of information that, by the end of the semester, I was just skimming through to get them over with. I think if I had more experience with these topics maybe I would have appreciated it more, but from my point of view I just found the material very boring. 
