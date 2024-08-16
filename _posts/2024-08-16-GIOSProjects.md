@@ -23,7 +23,7 @@ The warm-up phase involved familiarizing oneself with socket programming concept
 - Tracking sent bytes and comparing it to file length in a while loop to know when a full file has been transferred.
 
 ## Part 1
-![[Screenshot 2024-08-16 at 4.49.00 AM.png]]
+![Screenshot 2024-08-16 at 5 03 15 AM](https://github.com/user-attachments/assets/94599361-f583-47b9-b8e6-003be1ba27a5)
 
 Part 1 focused on implementing the Getfile protocol, covering the client and server components. For this part, a lot of time was spent getting more to up to speed with C programming fundamentals (thank you [Beej's Guide to C Programming](https://beej.us/guide/bgc/html/split-wide/)), most of which I mention in the eureka moments below.
 
@@ -44,7 +44,9 @@ Part 1 focused on implementing the Getfile protocol, covering the client and ser
 - Error handling was included for various points in the code, such as socket creation, binding, accepting connections, memory allocation, sending/receiving data, etc.
 
 ## Part 2
-![[Screenshot 2024-08-16 at 4.54.18 AM.png]]
+![Screenshot 2024-08-16 at 5 03 36 AM](https://github.com/user-attachments/assets/eea1163b-f29a-4d7c-9184-99cb89ad581e)
+
+
 In Part 2, we used a boss-worker pattern to parallelize multiple file requests between the client and server. This pattern involves a boss thread dividing work into smaller tasks and distributing these tasks to a number of worker threads, in this case via a queue.
 
 **Eureka Moments**:
@@ -61,14 +63,14 @@ In Part 2, we used a boss-worker pattern to parallelize multiple file requests b
 
 # Project 2: Inter-Process Communication
 ## Part 1
-![[Screenshot 2024-02-26 at 10.43.38 AM.png]]
+![Screenshot 2024-08-16 at 5 03 50 AM](https://github.com/user-attachments/assets/c806a376-c9a5-431e-a087-f0f27ad71302)
 
 In this part of the project, we converted the implementation of the getfile server from Project 1 into a proxy server which would translate GETFILE requests into http requests for other servers. 
 
 To do so, we relied on libcurl, an open source file transfer library. To transfer data, we have the option of using libcurl's "easy" or "multi" interface. The primary distinction between the two is that easy is synchronous (you wait for it to finish before proceeding with additional instructions) and multi is asynchronous (letting you do other things while the transfer is in progress). Part 1 used the easy interface as there was no requirement to do other work during the file transfer.
 
 ## Part 2
-![[Screenshot 2024-02-29 at 2.49.03 PM.png]]
+![Screenshot 2024-08-16 at 5 04 06 AM](https://github.com/user-attachments/assets/bfd7c30f-7bb0-4b46-bf98-292699831419)
 
 In this part of the project, we implemented a cache server that communicates with the proxy via **POSIX shared memory** to share file content. A separate command channel was implemented using a **POSIX message queue** to transmit a request from the proxy to the cache. Synchronization between threads was accomplished using pthreads mutexes and condition variables (learned in project 1) and **POSIX semaphores**.
 
@@ -96,7 +98,7 @@ In this part of the project, we implemented a cache server that communicates wit
 
 # Project 3: Remote Procedure Calls
 ## C++, Protocol Buffers, and gRPC
-![[Screenshot 2024-08-16 at 4.55.20 AM.png]]
+![Screenshot 2024-08-16 at 5 04 25 AM](https://github.com/user-attachments/assets/62e65f71-402b-4421-8c1f-087ef07b6a7e)
 
 Some C++ standard library methods and objects which were used throughout this project:
 - `duration`: Part of the `chrono` library; the `milliseconds` helper type is used to set context deadlines in this project.
