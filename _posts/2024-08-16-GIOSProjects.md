@@ -170,8 +170,8 @@ I highly recommend getting your hands on the review questions for the midterm an
 
 If you want a practical head start in GIOS:
 1. Warm ups: Do the C warm up exercises that the TAs provide at the start of the semester 
-2. Understand this page from Beej's Network Concepts Guide: [https://beej.us/guide/bgnet0/html/split/introducing-the-sockets-api.html#introducing-the-sockets-api](https://beej.us/guide/bgnet0/html/split/introducing-the-sockets-api.html#introducing-the-sockets-api "https://beej.us/guide/bgnet0/html/split/introducing-the-sockets-api.html#introducing-the-sockets-api") (this is separate from Beej's Guide to Network Programming, which is what is ultimately referred to for part 1)
-3. Understand the "Using Condition Variables" example in this POSIX threads programming tutorial [https://hpc-tutorials.llnl.gov/posix/](https://hpc-tutorials.llnl.gov/posix/ "https://hpc-tutorials.llnl.gov/posix/")
+2. Understand [this](https://beej.us/guide/bgnet0/html/split/introducing-the-sockets-api.html#introducing-the-sockets-api) page from Beej's Network Concepts Guide: (this is separate from Beej's Guide to Network Programming, which is what is ultimately referred to for part 1)
+3. Understand the "Using Condition Variables" example in [this](https://hpc-tutorials.llnl.gov/posix/) POSIX threads programming tutorial 
 
 # Final Thoughts
 I don't have a computer science background. My undergrad years ago was in Electrical Engineering and my work has been primarily IT support. I found the projects very interesting/rewarding/fun. They were difficult and I needed to spend at least a couple of hours each day for a few weeks to get them working in Gradescope. Reminded me of how long it takes me to learn the patterns of some bosses in Soulsborne games.
