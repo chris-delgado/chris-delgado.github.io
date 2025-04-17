@@ -27,7 +27,7 @@ Here's a brief overview of my team's game **_Apocalypse Fowl_**:
 
 ### **Trailer**
 <iframe width="560" height="315" 
-    src="https://www.youtube.com/embed/v=PQ_r2VXkmec" 
+    src="https://www.youtube.com/embed/PQ_r2VXkmec" 
     title="Apocalypse Fowl Trailer"
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
