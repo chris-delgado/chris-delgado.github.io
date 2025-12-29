@@ -33,3 +33,12 @@ Here's a brief overview of my team's game **_Apocalypse Fowl_**:
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
     allowfullscreen>
 </iframe>
+
+### **Gameplay Video**
+<iframe width="560" height="315" 
+    src="https://www.youtube.com/watch?v=3SKlaE3pWj8" 
+    title="Apocalypse Fowl Trailer"
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+</iframe>
