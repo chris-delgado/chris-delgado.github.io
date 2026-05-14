@@ -4,7 +4,7 @@ title: Smartphone Exercise App
 image: "/posts/Screens.png"
 tags: [Mobile and Ubiquitous Computing]
 ---
-I took CS 7470 Mobile and Ubiquitous Computing during the Spring 2026 semester.
+I took CS 7470 Mobile and Ubiquitous Computing during the Spring 2026 semester. The capstone project in that class was a team project where we developed a smartphone application for assisting users engaging in shoulder rehabilitative exercises.
 
 See below for a demo video and our report.
 
